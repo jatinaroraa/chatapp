@@ -2,8 +2,10 @@ const express = require('express');
 const app=express();
 const http = require('http').createServer(app);
 app.use(express.static(__dirname + '/public'))
+const host = '0.0.0.0';
 
-http.listen(3000,()=>{
+const PORT = process.env.PORT || 3000;
+http.listen(PORT,host,()=>{
     // console.log('listning on server');
 })
 
