@@ -1,0 +1,125 @@
+
+.newcon{
+    font-weight: 600;
+    font-size: 16px;
+   
+    background-color: rgb(194, 189, 189);
+    text-transform: capitalize;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 10px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 10px auto;
+}
+.newc{
+    margin: 0px;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+/* .box {
+    background-color: rgb(201, 201, 201);
+    height: 80vh;
+    width: 70vw;
+} */
+.head{
+    display: flex;
+    flex-direction: row;
+    background-color: burlywood;
+    height: 8vh;
+    color: white;
+    padding: 5px;
+    
+    width: 70vw;
+    
+}
+.head h1{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+/* chat  */
+.chat{
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 50vh;
+    width: 70vw;
+    background-color: whitesmoke;
+}
+/* received */
+.received{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+}
+.received p{
+    margin: 0px;
+    text-transform: capitalize;
+}
+.mess-received{
+    color: black;
+    background-color: blue;
+    padding: 10px 5px;
+    width: 30vw;
+    margin: 0px;
+}
+
+/* send  */
+.send{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 10px 10px;
+}
+.send p{
+    margin: 0px;
+    text-transform: capitalize;
+}
+.mess-send{
+    background-color: wheat;
+    color: black;
+    padding: 10px 5px;
+    width: 30vw;
+}
+
+/* tye mess  */
+
+.type-mess{
+    /* width: 70vw; */
+    background-color: whitesmoke;
+    
+}
+.type{
+    width: 70vw;
+    background-color: whitesmoke;
+    text-transform: capitalize;
+    height: 8vh;
+}
+
+.foot{
+    margin-top: 25px;
+    color: black;
+    
+
+}
+.foot a{
+    text-decoration: none;
+}
+.foot p{
+    color: blue;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-decoration: none;
+}
